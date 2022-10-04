@@ -1,0 +1,12 @@
+.card {
+    display: flex;
+}
+
+.one img {
+    max-width: 50%;
+}
+
+.info img {
+    width: 128px;
+    height: auto;
+}

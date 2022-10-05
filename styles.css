@@ -81,14 +81,37 @@ button {
 .two {
     flex-direction: column;
     align-items: center;
+    padding-top: 64px;
+    padding-bottom: 128px;
+    gap: 64px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    gap: 64px;
+
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    width: 152px;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
 }
 
 .info img {
-    display: block;
-    width: 128px;
+    width: 152px;
     height: auto;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+    margin-bottom: 8px;
 }

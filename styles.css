@@ -62,13 +62,16 @@ h1 {
     font-weight: 900;
 }
 
+.description p {
+    margin-bottom: 16px;
+}
+
 button {
     background-color: #3882f6;
     font-size: 18px;
     font-weight: bold;
     color: #f9faf8;
     padding: 8px 32px;
-    margin-top: 16px;
     border-radius: 8px;
     border: none;
 }
@@ -112,7 +115,7 @@ h2 {
     width: 152px;
     height: auto;
     border: 4px solid #3882f6;
-    border-radius: 16px;
+    border-radius: 8px;
     margin-bottom: 8px;
 }
 
@@ -134,4 +137,35 @@ h2 {
     margin-right: 96px;
     font-size: 24px;
     font-weight: bold;
+}
+
+.four {
+    margin: 64px;
+    padding: 32px 64px;
+    justify-content: space-between;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 8px;
+
+}
+
+.ftext {
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+.ftext div {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.four button {
+    border: 2px white solid;
+}
+
+.footer {
+    justify-content: center;
+    color: #f9fAf8;
+    padding: 32px;
+    font-size: 18px;
 }

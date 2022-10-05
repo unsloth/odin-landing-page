@@ -115,3 +115,23 @@ h2 {
     border-radius: 16px;
     margin-bottom: 8px;
 }
+
+.three {
+    flex-direction: column;
+    align-items: center;
+    padding: 64px;
+}
+
+.three p {
+    font-size: 36px;
+    font-weight: light;
+    color: #1f2937;
+    margin: 0 64px;
+}
+
+.name {
+    margin-left: auto;
+    margin-right: 96px;
+    font-size: 24px;
+    font-weight: bold;
+}
